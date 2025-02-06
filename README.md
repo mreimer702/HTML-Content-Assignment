@@ -1,2 +1,2 @@
 # HTML-Content-Assignment
-This is the HTML Content Assignment I was assigned as part of my work with Coding Temple in their HTML and CSS Module
+This is the HTML Content Assignment I was assigned as part of my work with Coding Temple in their HTML and CSS Module. As per the instructions of the assignment, the following HTML code has: a navagation bar going to Home, About, and Contact; a table (including a header) of popular cookies, their prices and how much I had of them; two images, one of which is rounded; and a contact form asking users for their name and email, as well as inquiring where they heard about the project and a place for them to write down a message. 
