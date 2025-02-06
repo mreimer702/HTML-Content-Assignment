@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Content</title>
+</head>
+<body>
+    <nav>
+        <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+<h1 id="home">HTML Content Assignment</h1>
+<h2>Table for Cookies</h2>
+  <table border="3">
+     <!--bonus code below-->
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+    </tr>
+    <!--bonus code above-->
+    <tr>
+      <td>Sugar</td>
+      <td>$1</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>Chocolate Chip</td>
+      <td>$2</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>Oatmeal</td>
+      <td>$3</td>
+      <td>3</td>
+    </tr>
+  </table>
+  <h2 id="about">Images</h2>
+  <img src="https://placehold.co/300x200" alt="placeholder"><br/>
+  <!--bonus code below-->
+  <img src="https://images.squarespace-cdn.com/content/v1/544cb720e4b0f3ba72ee8a78/1414557226508-EOBKZADWHEVRK7RQTQXT/The_Last_Full_Measure_A_Collection_Civil_War_Photographs_3-777x582.jpg" alt="civil war photo" style="border-radius: 50%">
+  <!--bonus code above-->
+<h2 id="contact">Contact Form</h2>
+<div><fieldset action="#" method="POST">
+    <legend>Personal Information</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your name">
+    <br/>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email">
+    <br/>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required placeholder="Write your message"></textarea>
+    <br/>
+<!--bonus code below-->
+    <div id="radio">
+        <p>How did you find this website?</p>
+        <input type="radio" id="google" name="find" value="google" required>
+        <label for="google" style="margin-right: 20px;">Google</label>
+        <br/>
+        <input type="radio" id="social_media" name="find" value="social_media" required>
+        <label for="social_media">Social Media</label>
+        <br/>
+        <input type="radio" id="other" name="find" value="other" required>
+        <label for="other">Other</label>
+        <br/>
+      </div>
+  <!--bonus code above-->
+    <input type="submit" value="Send">
+  </fieldset>
+  
+</div>
+</body>
+</html>
